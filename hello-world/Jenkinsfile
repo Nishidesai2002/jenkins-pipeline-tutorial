@@ -1,4 +1,4 @@
-pipeline {
+ho"hellopipeline {
     agent any 
     stages {
         stage('Static Analysis') {
@@ -28,17 +28,17 @@ pipeline {
         }
         stage('Build') { 
             steps {
-                // 
+                echo"hello"// 
             }
         }
         stage('Test') { 
             steps {
-                // 
+                echo "hi"// 
             }
         }
         stage('Deploy') { 
             steps {
-                // 
+                echo "bnishi"// 
             }
         }
 
