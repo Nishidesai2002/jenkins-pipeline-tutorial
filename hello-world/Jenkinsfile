@@ -38,7 +38,7 @@ ho"hellopipeline {
         }
         stage('Deploy') { 
             steps {
-                echo "bnishi"// 
+                echo "nishi"// 
             }
         }
 
